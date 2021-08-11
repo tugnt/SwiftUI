@@ -26,6 +26,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
             }
             .listStyle(InsetListStyle())
+            .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Featured")
             .toolbar {
                 Button(action: {
