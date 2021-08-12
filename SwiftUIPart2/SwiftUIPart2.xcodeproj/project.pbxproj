@@ -100,8 +100,8 @@
 		1A48CBE226C17D56002640DD /* SwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				1A48CBE326C17D8C002640DD /* StaticLabel.swift */,
-				1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */,
+				1A7D5B5526C55C930030FECB /* Button */,
+				1A7D5B5226C559380030FECB /* Text */,
 			);
 			path = SwiftUIComponents;
 			sourceTree = "<group>";
@@ -194,6 +194,22 @@
 				1A7C361726BF4490006F599D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A7D5B5226C559380030FECB /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				1A48CBE326C17D8C002640DD /* StaticLabel.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		1A7D5B5526C55C930030FECB /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		1AFE9A4A26C2DCFB00034BB0 /* Helpers */ = {

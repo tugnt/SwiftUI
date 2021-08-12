@@ -29,9 +29,17 @@ struct ContentView: View {
                     NavigationLink(
                         destination: StaticLabel(),
                         label: {
-                            Text("Static Label")
+                            Text("Text")
+                        })
+                    
+                    NavigationLink(
+                        destination: SwiftUIButton(),
+                        label: {
+                            Text("Button")
                         })
                 }
+                
+                
             }.navigationTitle("Swift UI Tutorial")
             .navigationBarTitleDisplayMode(.inline)
         }
