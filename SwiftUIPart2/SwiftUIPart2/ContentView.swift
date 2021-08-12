@@ -33,6 +33,12 @@ struct ContentView: View {
                         })
                     
                     NavigationLink(
+                        destination: SwiftUITextField(),
+                        label: {
+                            Text("Textfield")
+                        })
+                    
+                    NavigationLink(
                         destination: SwiftUIButton(),
                         label: {
                             Text("Button")
