@@ -20,6 +20,7 @@
 		1A7C361526BF4490006F599D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C361426BF4490006F599D /* Assets.xcassets */; };
 		1A7C361826BF4490006F599D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C361726BF4490006F599D /* Preview Assets.xcassets */; };
 		1A7C361B26BF4490006F599D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C361926BF4490006F599D /* LaunchScreen.storyboard */; };
+		1A7D5B5126C551D00030FECB /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */; };
 		1AFE9A4526C2BFDF00034BB0 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4426C2BFDF00034BB0 /* LandmarkList.swift */; };
 		1AFE9A4726C2C06B00034BB0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4626C2C06B00034BB0 /* LandmarkDetail.swift */; };
 		1AFE9A4926C2DC7300034BB0 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4826C2DC7300034BB0 /* FavoriteButton.swift */; };
@@ -60,6 +61,7 @@
 		1A7C361726BF4490006F599D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A7C361A26BF4490006F599D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A7C361C26BF4490006F599D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
 		1AFE9A4426C2BFDF00034BB0 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		1AFE9A4626C2C06B00034BB0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		1AFE9A4826C2DC7300034BB0 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1A48CBE326C17D8C002640DD /* StaticLabel.swift */,
+				1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */,
 			);
 			path = SwiftUIComponents;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				1AFE9A4526C2BFDF00034BB0 /* LandmarkList.swift in Sources */,
 				1A48CBE426C17D8C002640DD /* StaticLabel.swift in Sources */,
 				1AFE9A7C26C4007800034BB0 /* HexagonParameters.swift in Sources */,
+				1A7D5B5126C551D00030FECB /* SwiftUIButton.swift in Sources */,
 				1AFE9A6A26C3C60100034BB0 /* ProfileHost.swift in Sources */,
 				1AFE9A4926C2DC7300034BB0 /* FavoriteButton.swift in Sources */,
 				1AFE9A4F26C2DEE600034BB0 /* Hike.swift in Sources */,
