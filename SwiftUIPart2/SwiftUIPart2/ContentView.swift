@@ -44,6 +44,13 @@ struct ContentView: View {
                             Text("Text Editor")
                         })
                     
+                    
+                    NavigationLink(
+                        destination: SwiftUIImage(),
+                        label: {
+                            Text("Image")
+                        })
+                    
                     NavigationLink(
                         destination: SwiftUIButton(),
                         label: {

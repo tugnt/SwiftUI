@@ -23,6 +23,7 @@
 		1A7D5B5126C551D00030FECB /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */; };
 		1A7D5B5726C55D070030FECB /* SwiftUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B5626C55D070030FECB /* SwiftUITextField.swift */; };
 		1A7D5B5B26C58ADC0030FECB /* SwiftUITextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B5A26C58ADC0030FECB /* SwiftUITextEditor.swift */; };
+		1A7D5B5E26C623780030FECB /* SwiftUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B5D26C623780030FECB /* SwiftUIImage.swift */; };
 		1AFE9A4526C2BFDF00034BB0 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4426C2BFDF00034BB0 /* LandmarkList.swift */; };
 		1AFE9A4726C2C06B00034BB0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4626C2C06B00034BB0 /* LandmarkDetail.swift */; };
 		1AFE9A4926C2DC7300034BB0 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4826C2DC7300034BB0 /* FavoriteButton.swift */; };
@@ -66,6 +67,7 @@
 		1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
 		1A7D5B5626C55D070030FECB /* SwiftUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextField.swift; sourceTree = "<group>"; };
 		1A7D5B5A26C58ADC0030FECB /* SwiftUITextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextEditor.swift; sourceTree = "<group>"; };
+		1A7D5B5D26C623780030FECB /* SwiftUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImage.swift; sourceTree = "<group>"; };
 		1AFE9A4426C2BFDF00034BB0 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		1AFE9A4626C2C06B00034BB0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		1AFE9A4826C2DC7300034BB0 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		1A48CBE226C17D56002640DD /* SwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				1A7D5B5C26C617B20030FECB /* Image */,
 				1A7D5B5526C55C930030FECB /* Button */,
 				1A7D5B5226C559380030FECB /* Text */,
 			);
@@ -216,6 +219,14 @@
 				1A7D5B5026C551CF0030FECB /* SwiftUIButton.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		1A7D5B5C26C617B20030FECB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D5B5D26C623780030FECB /* SwiftUIImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		1AFE9A4A26C2DCFB00034BB0 /* Helpers */ = {
@@ -388,6 +399,7 @@
 				1AFE9A6F26C3FE0900034BB0 /* HikeBadge.swift in Sources */,
 				1A48CBF026C18F9E002640DD /* Landmark.swift in Sources */,
 				1AFE9A6426C3BF9D00034BB0 /* Main.swift in Sources */,
+				1A7D5B5E26C623780030FECB /* SwiftUIImage.swift in Sources */,
 				1A7D5B5B26C58ADC0030FECB /* SwiftUITextEditor.swift in Sources */,
 				1AFE9A5626C2E19000034BB0 /* HikeView.swift in Sources */,
 				1AFE9A5D26C3648400034BB0 /* CategoryHome.swift in Sources */,
