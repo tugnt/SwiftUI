@@ -51,10 +51,18 @@ struct ContentView: View {
                             Text("Image")
                         })
                     
+                    
+                    
                     NavigationLink(
                         destination: SwiftUIButton(),
                         label: {
                             Text("Button")
+                        })
+                    
+                    NavigationLink(
+                        destination: SwiftUIEditButton(),
+                        label: {
+                            Text("Edit Button")
                         })
                 }
                 
