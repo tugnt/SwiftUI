@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A47E89626CAB025006D95BC /* RepoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47E89526CAB025006D95BC /* RepoRow.swift */; };
+		1A47E89826CABA27006D95BC /* SearchRepoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47E89726CABA27006D95BC /* SearchRepoResponse.swift */; };
 		1A48CBE426C17D8C002640DD /* StaticLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A48CBE326C17D8C002640DD /* StaticLabel.swift */; };
 		1A48CBEA26C18987002640DD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A48CBE926C18987002640DD /* CircleImage.swift */; };
 		1A48CBEC26C18A1F002640DD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A48CBEB26C18A1F002640DD /* MapView.swift */; };
@@ -14,6 +16,10 @@
 		1A48CBF026C18F9E002640DD /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A48CBEF26C18F9E002640DD /* Landmark.swift */; };
 		1A48CBF226C18FFB002640DD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A48CBF126C18FFB002640DD /* ModelData.swift */; };
 		1A48CBF726C19066002640DD /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A48CBF626C19066002640DD /* LandmarkRow.swift */; };
+		1A69F13926CA311300F6347C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69F13826CA311300F6347C /* SearchBar.swift */; };
+		1A69F13B26CA339E00F6347C /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69F13A26CA339E00F6347C /* ViewControllerResolver.swift */; };
+		1A69F13F26CA5F3C00F6347C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69F13E26CA5F3C00F6347C /* APIService.swift */; };
+		1A69F14126CA612000F6347C /* RepoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A69F14026CA612000F6347C /* RepoStore.swift */; };
 		1A7C360F26BF448C006F599D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C360E26BF448C006F599D /* AppDelegate.swift */; };
 		1A7C361126BF448C006F599D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C361026BF448C006F599D /* SceneDelegate.swift */; };
 		1A7C361326BF448C006F599D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C361226BF448C006F599D /* ContentView.swift */; };
@@ -31,6 +37,7 @@
 		1A7D5B6C26C65AA80030FECB /* SwiftUIPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B6B26C65AA80030FECB /* SwiftUIPicker.swift */; };
 		1A7D5B6E26C664290030FECB /* SwiftUIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B6D26C664290030FECB /* SwiftUIStepper.swift */; };
 		1A7D5B7026C66B770030FECB /* SwiftUIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B6F26C66B770030FECB /* SwiftUIDatePicker.swift */; };
+		1A7D5B7A26C6CA0E0030FECB /* GithubSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D5B7926C6CA0E0030FECB /* GithubSearchView.swift */; };
 		1AFE9A4526C2BFDF00034BB0 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4426C2BFDF00034BB0 /* LandmarkList.swift */; };
 		1AFE9A4726C2C06B00034BB0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4626C2C06B00034BB0 /* LandmarkDetail.swift */; };
 		1AFE9A4926C2DC7300034BB0 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE9A4826C2DC7300034BB0 /* FavoriteButton.swift */; };
@@ -56,6 +63,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A47E89526CAB025006D95BC /* RepoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRow.swift; sourceTree = "<group>"; };
+		1A47E89726CABA27006D95BC /* SearchRepoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepoResponse.swift; sourceTree = "<group>"; };
 		1A48CBE326C17D8C002640DD /* StaticLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLabel.swift; sourceTree = "<group>"; };
 		1A48CBE926C18987002640DD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1A48CBEB26C18A1F002640DD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -63,6 +72,10 @@
 		1A48CBEF26C18F9E002640DD /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		1A48CBF126C18FFB002640DD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		1A48CBF626C19066002640DD /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		1A69F13826CA311300F6347C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1A69F13A26CA339E00F6347C /* ViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResolver.swift; sourceTree = "<group>"; };
+		1A69F13E26CA5F3C00F6347C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1A69F14026CA612000F6347C /* RepoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoStore.swift; sourceTree = "<group>"; };
 		1A7C360B26BF448C006F599D /* SwiftUIPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7C360E26BF448C006F599D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A7C361026BF448C006F599D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +95,7 @@
 		1A7D5B6B26C65AA80030FECB /* SwiftUIPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPicker.swift; sourceTree = "<group>"; };
 		1A7D5B6D26C664290030FECB /* SwiftUIStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStepper.swift; sourceTree = "<group>"; };
 		1A7D5B6F26C66B770030FECB /* SwiftUIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDatePicker.swift; sourceTree = "<group>"; };
+		1A7D5B7926C6CA0E0030FECB /* GithubSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchView.swift; sourceTree = "<group>"; };
 		1AFE9A4426C2BFDF00034BB0 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		1AFE9A4626C2C06B00034BB0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		1AFE9A4826C2DC7300034BB0 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -132,6 +146,7 @@
 		1A48CBE526C187C1002640DD /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1A7D5B7126C681F20030FECB /* GithubSearchApp */,
 				1A48CBE626C187DC002640DD /* LandmarkApp */,
 			);
 			path = SwiftUITutorial;
@@ -177,6 +192,15 @@
 				1A48CBED26C18E9D002640DD /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A69F13726CA30DA00F6347C /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				1A69F13826CA311300F6347C /* SearchBar.swift */,
+				1A69F13A26CA339E00F6347C /* ViewControllerResolver.swift */,
+			);
+			path = SearchBar;
 			sourceTree = "<group>";
 		};
 		1A7C360226BF448C006F599D = {
@@ -264,6 +288,59 @@
 				1A7D5B6F26C66B770030FECB /* SwiftUIDatePicker.swift */,
 			);
 			path = "Value Selectors";
+			sourceTree = "<group>";
+		};
+		1A7D5B7126C681F20030FECB /* GithubSearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D5B7426C69D960030FECB /* Model */,
+				1A7D5B7326C69D910030FECB /* API */,
+				1A7D5B7226C69D8B0030FECB /* Views */,
+			);
+			path = GithubSearchApp;
+			sourceTree = "<group>";
+		};
+		1A7D5B7226C69D8B0030FECB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D5B7626C69DA10030FECB /* CustomViews */,
+				1A7D5B7526C69D9A0030FECB /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A7D5B7326C69D910030FECB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1A69F13E26CA5F3C00F6347C /* APIService.swift */,
+				1A69F14026CA612000F6347C /* RepoStore.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1A7D5B7426C69D960030FECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A47E89726CABA27006D95BC /* SearchRepoResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A7D5B7526C69D9A0030FECB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D5B7926C6CA0E0030FECB /* GithubSearchView.swift */,
+				1A47E89526CAB025006D95BC /* RepoRow.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1A7D5B7626C69DA10030FECB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1A69F13726CA30DA00F6347C /* SearchBar */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		1AFE9A4A26C2DCFB00034BB0 /* Helpers */ = {
@@ -428,12 +505,15 @@
 				1A7D5B6826C646C30030FECB /* SwiftUIToggle.swift in Sources */,
 				1A48CBE426C17D8C002640DD /* StaticLabel.swift in Sources */,
 				1A7D5B5726C55D070030FECB /* SwiftUITextField.swift in Sources */,
+				1A69F13926CA311300F6347C /* SearchBar.swift in Sources */,
 				1AFE9A7C26C4007800034BB0 /* HexagonParameters.swift in Sources */,
 				1A7D5B5126C551D00030FECB /* SwiftUIButton.swift in Sources */,
 				1AFE9A6A26C3C60100034BB0 /* ProfileHost.swift in Sources */,
 				1AFE9A4926C2DC7300034BB0 /* FavoriteButton.swift in Sources */,
+				1A47E89826CABA27006D95BC /* SearchRepoResponse.swift in Sources */,
 				1AFE9A4F26C2DEE600034BB0 /* Hike.swift in Sources */,
 				1A48CBF226C18FFB002640DD /* ModelData.swift in Sources */,
+				1A69F13F26CA5F3C00F6347C /* APIService.swift in Sources */,
 				1AFE9A4726C2C06B00034BB0 /* LandmarkDetail.swift in Sources */,
 				1A7C360F26BF448C006F599D /* AppDelegate.swift in Sources */,
 				1AFE9A6F26C3FE0900034BB0 /* HikeBadge.swift in Sources */,
@@ -443,17 +523,21 @@
 				1A7D5B6E26C664290030FECB /* SwiftUIStepper.swift in Sources */,
 				1A7D5B5B26C58ADC0030FECB /* SwiftUITextEditor.swift in Sources */,
 				1A7D5B6226C62AFA0030FECB /* SwiftUIEditButton.swift in Sources */,
+				1A47E89626CAB025006D95BC /* RepoRow.swift in Sources */,
 				1AFE9A5626C2E19000034BB0 /* HikeView.swift in Sources */,
 				1AFE9A5D26C3648400034BB0 /* CategoryHome.swift in Sources */,
 				1A7C361126BF448C006F599D /* SceneDelegate.swift in Sources */,
+				1A69F14126CA612000F6347C /* RepoStore.swift in Sources */,
 				1A7C361326BF448C006F599D /* ContentView.swift in Sources */,
 				1AFE9A5826C2E19000034BB0 /* GraphCapsule.swift in Sources */,
 				1A48CBF726C19066002640DD /* LandmarkRow.swift in Sources */,
+				1A69F13B26CA339E00F6347C /* ViewControllerResolver.swift in Sources */,
 				1A48CBEA26C18987002640DD /* CircleImage.swift in Sources */,
 				1AFE9A7B26C4007800034BB0 /* BadgeSymbol.swift in Sources */,
 				1AFE9A7D26C4007800034BB0 /* Badge.swift in Sources */,
 				1AFE9A5726C2E19000034BB0 /* HikeDetail.swift in Sources */,
 				1AFE9A7826C4007800034BB0 /* BadgeBackground.swift in Sources */,
+				1A7D5B7A26C6CA0E0030FECB /* GithubSearchView.swift in Sources */,
 				1AFE9A5926C2E19000034BB0 /* HikeGraph.swift in Sources */,
 				1A7D5B6526C6358E0030FECB /* SwiftUILinkAndMenu.swift in Sources */,
 				1AFE9A6826C3C5D000034BB0 /* Profile.swift in Sources */,

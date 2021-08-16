@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showLandmark = false
+    @State private var showGithub = false
+    let store = RepoStore(service: .init())
+    
     var body: some View {
         NavigationView {
             List {
@@ -20,6 +23,14 @@ struct ContentView: View {
                         Text("Open landmark app")
                     }).sheet(isPresented: $showLandmark, content: {
                         Main().environmentObject(modelData)
+                    })
+                    
+                    Button(action: {
+                        showGithub.toggle()
+                    }, label: {
+                        Text("Github Search App")
+                    }).sheet(isPresented: $showGithub, content: {
+                        GithubSearchView().environmentObject(store)
                     })
                 }
                 
